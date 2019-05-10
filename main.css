@@ -253,6 +253,26 @@ a:visited{
 .cvIco{
     height: 22px;
 }
+.blogContainer{
+    width: 23%;
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    justify-content: space-between
+}
+.blogText{
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+}
+.blogIco{
+    height: 24px;
+}
+
 
 @media only screen and (max-width: 786px) {
     body{

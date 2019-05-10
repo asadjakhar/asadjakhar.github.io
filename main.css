@@ -214,7 +214,7 @@ nav{
     text-decoration: none;
 }
 a:visited{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .profileicons-container{
     margin-top: 8px;
@@ -234,6 +234,26 @@ a:visited{
 .socialIco{
     height: 26px;
 }
+.cvContainer{
+    width: 17%;
+}
+.cv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    justify-content: space-between
+}
+.cvText{
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+}
+.cvIco{
+    height: 22px;
+}
+
 @media only screen and (max-width: 786px) {
     body{
         padding:0;

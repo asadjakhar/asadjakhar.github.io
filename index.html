@@ -1,180 +1,406 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+	<meta name="author" content="Asad Abdul Hameed (Asad Jakhar)" />
+	<meta name="description" content="Information about Asad Jakhar, a freelance programmer, front end developer" />
+	<meta name="keywords"  content="CV resume personal blog about-me programmer developer front-end" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Asad Jakhar | CV</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="./main.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/depenencies.css" />
+    <link rel="stylesheet" href="./styles.css" />
+
+
 </head>
 <body>
     <main>
-        <aside>
-                <div class="profilecardContainer" >
-                    <div class="flexo">
-                        <img class="profileImg" src="./assets/img.jpg" >
-                        <h3 class="profileName">Asad Jakhar</h3>
-                        <h3 class="profileDes">
-                                Fullstack Developer 
-                        </h3>
-                        <div class="profileicons-container">
-                            <div class="portfolioIcons-inner">
-                                <a href="https://twitter.com/rustyonrampage" target="_blank">
-                                    <img class="socialIco" src="assets/twitter-logo-button (1).png" >    
-                                </a>
-                                <a href="https://www.linkedin.com/in/asad-jakhar-b84a77b8/" target="_blank">
-                                    <img class="socialIco" src="assets/linkedin (1).png" >    
-                                </a>
-                                <a href="https://github.com/rustyonrampage" target="_blank">
-                                    <img class="socialIco" src="assets/github-logo (1).png"  >    
-                                </a>
-                                <a href="skype:rustyonrampage?chat">
-                                    <img class="socialIco" src="assets/skype-logo (1).png" >    
-                                </a>
-                                <a href="mailto:asad.hameed.cs@gmail.com">
-                                    <img class="socialIco" src="assets/email.png" >    
-                                </a>
-                            </div>
-                        </div>
-                        <div class="cvContainer">
-                            <a href="./latest resume.pdf" target="_blank" class="cv">
-                                    <span class="cvText">CV</span>
-                                    <img class="cvIco" src="assets/cv.png" >    
-                            </a>
-                        </div>
-                        <div class="blogContainer">
-                                <a href="https://rustyonrampage.github.io/" target="_blank" class="blog">
-                                        <span class="blogText">Blog</span>
-                                        <img class="blogIco" src="assets/blog-comment-speech-bubble-symbol.png" >    
-                                </a>
-                            </div>
-                    </div>
-                </div>
-        </aside>
-        <div class="sections">
-            <nav class="my-nav">
-                <div class="nav-right">
-                    <div class="">
-                        <a class="nav-item active"  data-scroll href="#section-1" id="link-1"> CV </a>
-                        <a class="nav-item" data-scroll href="#section-2"  id="link-2"> Portfolio </a>
-                        <a class="nav-item" data-scroll href="#section-3"  id="link-3"> Contact </a>
-                    </div>
-                </div> 
-            </nav>
-            <section class="section section-1" id="section-1">
-                <h1 class="heading" id="heading-1">About me,</h1>
-                <p>  
-                    A professional developer with experience in Text mining, Web applications and UX. <br/>
-                    
-                    I have worked with many different Tools and Languages with professional experience in  React and React Native. In Frontend, have been developing fully responsive designs,
-                    unique components, custom animations and plugins. Worked in both web and mobile environments.
-                </p>
-                <h1 class="heading">Skillset</h1>
-                <div class="skillset-container"> 
-                    <div class="row">
-                        <div class="left-side">Languages:</div>
-                        <div class="right-side">JAVSCRIPT, PYTHON, C#</div>
-                    </div>
-                    <div class="row">
-                        <div class="left-side">Machine Learning:</div>
-                        <div class="right-side">KERAS, SKLEARN, NLTK, SPACY IO</div>
-                    </div>
-                    <div class="row">
-                            <div class="left-side">Frontend:</div>
-                            <div class="right-side">HTML, CSS, JQuery, AJAX, REACT, REACT NATIVE</div>
-                    </div>
-                    <div class="row">
-                        <div class="left-side">Backend:</div>
-                        <div class="right-side">ASP.NET MVC, NODE, DJANGO</div>
-                    </div>
-                    <div class="row">
-                        <div class="left-side">ORM:</div>
-                        <div class="right-side">ENTITY FRAMEWORK, NHIBERNATE, LINQ </div>
-                    </div>
-         
-                    <div class="row">
-                        <div class="left-side">Databases:</div>
-                        <div class="right-side">
-                            MYSQL,  MONGODB, MS SQL SERVER
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="left-side">Testing:</div>
-                        <div class="right-side">
-                            NUNIT, NINJECT, UNITY, MOQ
-                        </div>
-                    </div>
-                    <div class="row">
-                            <div class="left-side">Source Control:</div>
-                            <div class="right-side">
-                                GIT, SOURCE TREE
-                            </div>
-                    </div>
-                    <div class="row">
-                            <div class="left-side">CMS:</div>
-                            <div class="right-side">
-                                WORDPRESS, DNN 
-                            </div>
-                    </div>
-                </div>
-            </section>
-            <section class="section section-2" id="section-2">
-                <h1 class="heading">Projects</h1>
-                <div class="portfolioContainer" id="portfolioContainer">
-                        <div  class="portfolioItem" id="portfolioItem1">
-                            <a href="https://enatega.com/" target="_blank">
-                                Enatega
-                            </a>
-                        </div>
-                        <div class="portfolioItem" id="portfolioItem2">
-                            <a href="https://goosecase.com/" target="_blank">
-                                Goosecase
-                            </a>
-                        </div>
-                        <div class="portfolioItem" id="portfolioItem3">
-                            <a href="https://sharemysubs.com/" target="_blank">
-                                Sharemysubs
-                            </a>
-                        </div>
-                </div>
-            </section>
-            <section class="section section-3" id="section-3">
-                <h1 class="heading heading3">Contact</h1>
-                <div class="hiremeContainer">
-                    I am available for hire and projects.
-                    <ul class="hiremeList">
-                        <li>
-                            <a target="_blank"
-                                href="https://www.fiverr.com/galaxus">Fiverr</a>
-                        </li>
-                        <li>
-                            <a target="_blank"
-                                href="https://www.guru.com/freelancers/asad-abdul-hameed">Guru</a>
-                        </li>
-                        <li>
-                            <a 
-                                href="mailto:asad.hameed.cs@gmail.com">asad.hameed.cs@gmail.com</a>
-                        </li>
-                    </ul>
+        <!-- sidebar start-->
+        <section class="profileCard">
+                <img class="profileCard--pic" src="./imgs/profile_pic.jpg" />
+                <h1 class="profileCard--name">Asad Jakhar</h1>
+                <h1 class="profileCard--title">Front End Developer</h1>
+                <div class="profileCard--socialIcons ">
+                    <a class="link-ico" href="https://www.facebook.com/RustyOnRampage" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="social-ico" viewBox="0 0 36 36">
+                            <defs>
+                                <style>
+                                .cls-1 {
+                                    fill: #212121;
+                                }
+                                </style>
+                            </defs>
+                            <path id="Icon_awesome-facebook" data-name="Icon awesome-facebook" class=" cls-1" d="M36.563,18.672A18,18,0,1,0,15.75,36.563V23.907H11.177V18.672H15.75v-3.99c0-4.538,2.685-7.045,6.8-7.045a27.539,27.539,0,0,1,4.03.353v4.454h-2.27a2.61,2.61,0,0,0-2.933,2.828v3.4h4.992l-.8,5.235H21.375V36.563A18.083,18.083,0,0,0,36.563,18.672Z" transform="translate(-0.563 -0.563)"/>
+                        </svg>
+                    </a>
+                    <a class="link-ico" href="https://twitter.com/rustyonrampage" target="_blank">
+                        <svg class="social-ico " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+                            <defs>
+                                <style>
+                                .cls-1 {
+                                    fill: #212121;
+                                }
+                            
+                                .cls-2 {
+                                    fill: #fff;
+                                }
+                                </style>
+                            </defs>
+                            <g id="Group_14" data-name="Group 14" transform="translate(-119 -477)">
+                                <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-1" cx="18" cy="18" r="18" transform="translate(119 477)"/>
+                                <path id="Icon_awesome-twitter" data-name="Icon awesome-twitter" class="cls-2" d="M25.307,9.126c.018.252.018.5.018.756,0,7.69-5.817,16.55-16.448,16.55A16.263,16.263,0,0,1,0,23.821a11.885,11.885,0,0,0,1.4.072,11.532,11.532,0,0,0,7.177-2.485,5.8,5.8,0,0,1-5.405-4.034,7.246,7.246,0,0,0,1.092.09,6.079,6.079,0,0,0,1.521-.2,5.809,5.809,0,0,1-4.636-5.709v-.072a5.8,5.8,0,0,0,2.613.738,5.85,5.85,0,0,1-1.79-7.78,16.4,16.4,0,0,0,11.92,6.087A6.606,6.606,0,0,1,13.745,9.2a5.779,5.779,0,0,1,10-3.98,11.339,11.339,0,0,0,3.669-1.4,5.8,5.8,0,0,1-2.541,3.206,11.533,11.533,0,0,0,3.329-.9,12.469,12.469,0,0,1-2.9,3.007Z" transform="translate(123.2 479.974)"/>
+                            </g>
+                            </svg> 
+                    </a>
+                    <a class="link-ico" href="https://github.com/rustyonrampage" target="_blank">
+                        <svg class="social-ico " xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 36 36">
+                            <defs>
+                                <style>
+                                .cls-1 {
+                                    fill: #212121;
+                                }
+                                </style>
+                            </defs>
+                            <path id="Icon_awesome-github" data-name="Icon awesome-github" class="cls-1" d="M12.041,29.55c0,.149-.167.268-.377.268-.24.022-.406-.1-.406-.268,0-.149.167-.268.377-.268C11.852,29.259,12.041,29.378,12.041,29.55Zm-2.257-.335c-.051.149.094.32.312.365a.337.337,0,0,0,.45-.149c.044-.149-.094-.32-.312-.387A.369.369,0,0,0,9.784,29.215Zm3.208-.127c-.21.052-.356.194-.334.365.022.149.21.246.428.194s.356-.194.334-.342S13.2,29.066,12.992,29.088ZM17.768.563C7.7.563,0,8.4,0,18.726A18.635,18.635,0,0,0,12.3,36.532c.929.171,1.256-.417,1.256-.9,0-.462-.022-3.007-.022-4.571,0,0-5.081,1.117-6.148-2.218,0,0-.827-2.166-2.018-2.725,0,0-1.662-1.169.116-1.146a3.816,3.816,0,0,1,2.8,1.921,3.783,3.783,0,0,0,5.291,1.556,4.178,4.178,0,0,1,1.161-2.509c-4.057-.462-8.151-1.064-8.151-8.226A5.716,5.716,0,0,1,8.3,13.329a7.2,7.2,0,0,1,.189-5.055c1.517-.484,5.008,2.01,5.008,2.01a16.734,16.734,0,0,1,9.116,0s3.491-2.5,5.008-2.01a7.2,7.2,0,0,1,.189,5.055,5.854,5.854,0,0,1,1.873,4.385c0,7.184-4.275,7.757-8.332,8.226a4.463,4.463,0,0,1,1.234,3.454c0,2.509-.022,5.613-.022,6.223,0,.484.334,1.072,1.256.9C31.079,34.046,36,26.981,36,18.726A18.014,18.014,0,0,0,17.768.563ZM7.055,26.237c-.094.074-.073.246.051.387.116.119.283.171.377.074.094-.074.073-.246-.051-.387C7.316,26.192,7.149,26.14,7.055,26.237Zm-.784-.6c-.051.1.022.216.167.29a.213.213,0,0,0,.312-.052c.051-.1-.022-.216-.167-.29C6.438,25.537,6.322,25.56,6.271,25.634Zm2.352,2.65c-.116.1-.073.32.094.462.167.171.377.194.472.074.094-.1.051-.32-.094-.462C8.935,28.187,8.717,28.165,8.623,28.284ZM7.8,27.19c-.116.074-.116.268,0,.439s.312.246.406.171a.346.346,0,0,0,0-.462C8.1,27.168,7.911,27.093,7.8,27.19Z" transform="translate(0 -0.563)"/>
+                            </svg>
+                              
+                    </a>
+                    <a class="link-ico" href="https://www.linkedin.com/in/asad-jakhar-b84a77b8/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="social-ico" viewBox="0 0 36 36">
+                            <defs>
+                                <style>
+                                .cls-1 {
+                                    fill: #212121;
+                                }
+                            
+                                .cls-2 {
+                                    fill: #fff;
+                                }
+                                </style>
+                            </defs>
+                            <g id="Group_1" data-name="Group 1" transform="translate(-191 -474)">
+                                <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-1" cx="18" cy="18" r="18" transform="translate(191 474)"/>
+                                <path id="Icon_awesome-linkedin-in" data-name="Icon awesome-linkedin-in" class="cls-2" d="M5.19,23.185H.383V7.706H5.19ZM2.784,5.595a2.8,2.8,0,1,1,2.784-2.81A2.807,2.807,0,0,1,2.784,5.595Zm20.4,17.59h-4.8V15.65c0-1.8-.036-4.1-2.5-4.1C13.385,11.551,13,13.5,13,15.52v7.664H8.2V7.706h4.61V9.817h.067a5.051,5.051,0,0,1,4.548-2.5c4.865,0,5.759,3.2,5.759,7.364v8.5Z" transform="translate(197 479.999)"/>
+                            </g>
+                        </svg>
+                    </a>
+                    <a class="link-ico" href="skype:rustyonrampage?chat">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="social-ico" viewBox="0 0 36 36">
+                            <defs>
+                                <style>
+                                .cls-1 {
+                                    fill: #212121;
+                                }
+                                </style>
+                            </defs>
+                            <path id="Icon_awesome-skype" data-name="Icon awesome-skype" class="cls-1" d="M34.135,23.774a17.492,17.492,0,0,0,.378-3.52,16.494,16.494,0,0,0-16.5-16.5,16.99,16.99,0,0,0-3.52.378,8.99,8.99,0,0,0-12.619,12.6,17.493,17.493,0,0,0-.378,3.52A16.494,16.494,0,0,0,18,36.755a16.99,16.99,0,0,0,3.52-.378A8.991,8.991,0,0,0,36,29.248a8.866,8.866,0,0,0-1.865-5.474ZM18.494,31.129c-5.273,0-9.685-2.347-9.685-5.224a2.258,2.258,0,0,1,2.371-2.459c2.508,0,2.741,3.609,7.081,3.609,2.066,0,3.4-.916,3.4-2.114,0-1.5-1.286-1.736-3.376-2.251-5.023-1.238-9.468-1.768-9.468-7.009,0-4.758,4.71-6.518,8.769-6.518,4.429,0,8.906,1.76,8.906,4.453a2.421,2.421,0,0,1-2.435,2.556c-2.275,0-2.347-2.693-6.028-2.693-2.066,0-3.376.563-3.376,1.808,0,1.591,1.672,1.752,5.554,2.652,3.328.747,7.29,2.154,7.29,6.237,0,4.75-4.589,6.952-9,6.952Z" transform="translate(0 -2.25)"/>
+                            </svg>
+                    </a>
+                    <a class="link-ico" href="mailto:asad.hameed.cs@gmail.com">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="social-ico" viewBox="0 0 36 36">
+                            <defs>
+                                <style>
+                                .cls-1 {
+                                    fill: #212121;
+                                }
+                                </style>
+                            </defs>
+                            <path id="Exclusion_1" data-name="Exclusion 1" class="cls-1" d="M3851-346a17.883,17.883,0,0,1-12.728-5.272A17.882,17.882,0,0,1,3833-364a17.881,17.881,0,0,1,5.272-12.728A17.883,17.883,0,0,1,3851-382a17.883,17.883,0,0,1,12.728,5.272A17.881,17.881,0,0,1,3869-364a17.882,17.882,0,0,1-5.272,12.728A17.883,17.883,0,0,1,3851-346Zm-8.793-26a2.1,2.1,0,0,0-2.2,1.974l-.012,11.84a2.1,2.1,0,0,0,2.207,1.974h17.653a2.1,2.1,0,0,0,2.207-1.974v-11.84a2.1,2.1,0,0,0-2.207-1.974Zm8.826,8.881h0l-8.826-4.933v-1.973l8.826,4.934,8.826-4.934v1.973l-8.826,4.933Z" transform="translate(-3833 382)"/>
+                            </svg>
+                        </a>
+
                 </div>
 
-            </section>
-     
-        </div>
+                <div class="profileCard--separator"></div>
+
+                <div class="profileCard--btn"><a href="./misc/UI Resume.pdf" target="_blank">
+                    <span>CV/ RESUME</span>
+                    <img src="./imgs/aj-doc.png"/>
+                </a></div>
+                <div class="profileCard--btn"><a href="https://rustyonrampage.github.io/" target="_blank">
+                    <span>BLOG</span>
+                    <img src="./imgs/aj-blog.png"/>
+                </a></div>
+        </section>
+        <!-- sidebar end-->
+
+        <!-- content start-->
+        <section class="mainContainer" id="fullpage">
+            <!-- Intro Page -->
+            <div class="section page pageIntro">
+                <h1 class="page-heading">HELLO WORLD</h1>
+                <div class="pageIntro-content">
+                   <div class="pageIntro-content--item u-selfAlignLeft">
+                        <div>
+                            <h3 class="page-miniHeading">Academics</h3>
+                            <p>
+                                A Computer Sciences Graduate with MS(CS) from FAST NUCES, Islamabad.  Did my research work mostly in the field of Natural Language Processing and Text Mining. During which, I also fulfilled role of Instructor for the course of Numerical Computing
+                            </p>
+                        </div>
+                        <img src="./imgs/aj-intro1.png"/>
+                   </div>
+                   <div class="pageIntro-content--item u-selfAlightRight">
+                        <img src="./imgs/aj-intro2.png"/>
+                        <div>
+                            <h3 class="page-miniHeading">Application Development</h3>
+                            <p>
+                                During my role as a software developer in the industry, I created cross-platform mobile and web applications. During that phase, I worked on highly dynamic and interactive Front ends. Working on these projects improved my skills significantly 
+                            </p>
+                        </div>
+                   </div>
+                   <div class="pageIntro-content--item u-selfAlignLeft">
+                        <div>
+                            <h3 class="page-miniHeading">UI/ UX Designing</h3>
+                            <p>
+                                Spending 4 years with Fine Arts Graduates and having special interest in pop culture, I developed a knack for Computer Graphics. UI/ UX designing and dev. is an area that utilizes both of the design and coding skills. Hence, now I am practicing UI/ UX designing for mobile and web apps. 
+                            </p>
+                        </div>
+                        <img src="./imgs//aj-intro3.png"/>
+                   </div>
+                </div>
+                <div class="page-quotation">
+                    <quote>
+                        "The smartest amongst us, make use of least resources available to make the best possible solution"
+                    </quote>
+                    <span>-An acquaintance</span>
+                </div>
+            </div>
+            <!-- End Intro Page -->
+            <!-- Start Portfolio Page -->
+        	<div class="section page page-portfolio" id="section1">
+                <div class="left-arrow"><img id="left-arrow-link" src="./imgs/backward-arrow.png" /></div>
+                <div class="slide" id="slide1" data-anchor="slide1">
+                    <h1 class="page-heading">PORTFOLIO <span class="portfolio-miniHeading">#1 ENATEGA MOBILE APP</span></h1>
+                    <div class="pagePortfolio-content">
+                        <div class="pagePortfolio-content--left">
+                            <div class="pagePortfolio-content--leftItem">
+                                <h3 class="page-miniHeading">Cross Platform Mobile App</h3>
+                                <p>Enatega is a restaurant application developed using React & React Native. It includes all the necessary functionalities required for a food delivery app. Its includes splash screens, food menu, ordering, delivery and payment options. Fully compatible with Android and IOS platforms.</p>
+                            </div>
+                            <div class="pagePortfolio-content--leftItem">
+                                <h3 class="page-miniHeading">Features</h3>
+                                <ul class="portfolio-features">
+                                    <li><span class="u-box"></span>Nice Design </li>
+                                    <li><span class="u-box"></span>High Performance </li>
+                                    <li><span class="u-box"></span>Social Authentication </li>
+                                    <li><span class="u-box"></span>Push Notification </li>
+                                    <li><span class="u-box"></span>Payment Integration </li>
+                                    <li><span class="u-box"></span>Email Notification </li>
+                                    <li><span class="u-box"></span>Dashboard & Informatics </li>
+                                </ul>
+                            </div>
+                            <div class="pagePortfolio-content--leftItem">
+                                <h3 class="page-miniHeading">Technologies</h3>
+                                <p>
+                                    React & React Native was used to develop it on top of Expo. HTML, CSS and Javascript was used to create the Front end. Node and MongoDB was used to create the backend API and database.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bc-1"></div>
+                    </div>
+                    <div class="page-quotation hide-mobile">
+                        <quote>
+                            "The smartest amongst us, make use of least resources available to make the best possible solution"
+                        </quote>
+                        <span>-An acquaintance</span>
+                    </div>
+                </div>
+                <div class="right-arrow"><img id="right-arrow-link" class="right-arrow-link" src="./imgs/forward-arrow.png" /></div>
+
+                <div class="slide" id="slide2" data-anchor="slide2">
+                    <h1 class="page-heading">PORTFOLIO <span class="portfolio-miniHeading">#2 GOOSECASE WEB APP</span></h1>
+                    <div class="pagePortfolio-content">
+                        <div class="pagePortfolio-content--left">
+                            <div class="pagePortfolio-content--leftItem">
+                                <h3 class="page-miniHeading">Single Page Web Application</h3>
+                                <p>Goosecase is a HR cases resolution application built on top of React, Node and Bootstrap. It includes features like reporting, role management, cases management, file management etc. Application UI is highly interactive and responsive.</p>
+                            </div>
+                            <div class="pagePortfolio-content--leftItem">
+                                <h3 class="page-miniHeading">Features</h3>
+                                <ul class="portfolio-features">
+                                    <li><span class="u-box"></span>Responsive UI </li>
+                                    <li><span class="u-box"></span>High Performance </li>
+                                    <li><span class="u-box"></span>Files Management </li>
+                                    <li><span class="u-box"></span>Payment Integration </li>
+                                    <li><span class="u-box"></span>Landing Page</li>
+                                    <li><span class="u-box"> </span>Complete Dashboard </li>
+                                    <li><span class="u-box"></span>Facebook chat integration </li>
+                                </ul>
+                            </div>
+                            <div class="pagePortfolio-content--leftItem">
+                                <h3 class="page-miniHeading">Technologies</h3>
+                                <p>
+                                    Front end was built using React and Bootstrap. Backend API utilizes Node and MongoDB. Site is complete responsive across all the screens.  
+                                </p>  
+                            </div>
+                        </div>
+                        <div class="bc-2"></div>
+                    </div>
+                    <div class="page-quotation hide-mobile">
+                        <quote>
+                            "The smartest amongst us, make use of least resources available to make the best possible solution"
+                        </quote>
+                        <span>-An acquaintance</span>
+                    </div> 
+                </div>
+                <!-- End Portfolio Page -->
+
+                <div class="slide" id="slide3" data-anchor="slide3">
+                    <h1 class="page-heading">PORTFOLIO <span class="portfolio-miniHeading">#3 GAMERCOM WEBSITE</span></h1>
+                    <div class="pagePortfolio-content">
+                            <div class="pagePortfolio-content--left">
+                                    <div class="pagePortfolio-content--leftItem">
+                                        <h3 class="page-miniHeading">Gaming Community Website</h3>
+                                        <p>GAMERCOM is a gaming community built on top of WordPress. It includes features like reviews, marketplace, ads posting, forum, members functionality and of course blog. Front end is responsive across desktop, laptop, tablets and mobile devices.</p>
+                                    </div>
+                                    <div class="pagePortfolio-content--leftItem">
+                                        <h3 class="page-miniHeading">Features</h3>
+                                        <ul class="portfolio-features">
+                                            <li><span class="u-box"></span>Blog </li>
+                                            <li><span class="u-box"></span>Reviews </li>
+                                            <li><span class="u-box"></span>Ads Postings </li>
+                                            <li><span class="u-box"></span>Discussion Forum</li>
+                                            <li><span class="u-box"></span>Lazy loading assets</li>
+                                            <li><span class="u-box"></span>Marketplace </li>
+                                            <li><span class="u-box"></span>Backend for reviews </li>
+                                        </ul>
+                                    </div>
+                                    <div class="pagePortfolio-content--leftItem">
+                                        <h3 class="page-miniHeading">Technologies</h3>
+                                        <p>
+                                            GAMERCOM was built using WordPress CMS. HTML, CSS and Javascript was used to modify the Front end theme. PHP and MYSQL was used to customize some plugins and add additional functionalities.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="bc-3"></div>
+                    </div>
+                    <div class="page-quotation hide-mobile">
+                        <quote>
+                            "The smartest amongst us, make use of least resources available to make the best possible solution"
+                        </quote>
+                        <span>-An acquaintance</span>
+                    </div>  
+                </div>
+            </div>
+            <div class="section page page-freelancing" id="page3">
+                <h1 class="page-heading">HIRE ME</h1>
+                <div class="pageHire-content">
+                    <div>    
+                        <div class="pageHire-content--text">
+                            <h3 class="page-miniHeading">Freelance, Remote, Fulltime</h3>
+                            <p>
+                                I am open to Freelancing and Fulltime opportunities. Services available on Guru and Fiverr freelancing platforms. Links to my profiles are given below:
+                            </p>
+                            <div class="hireMe-Services">
+                                <a href="https://www.guru.com/freelancers/asad-abdul-hameed" target="_blank" class="serviceCircle">
+                                    guru
+                                </a>
+                                <a href="https://www.fiverr.com/users/galaxus" target="_blank" class="serviceCircle">
+                                    fiverr
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pageHire-content--text">
+                            <h3 class="page-miniHeading">Relevant Communities</h3>
+                            <p>
+                                Also contributing to relevant communities like StackOverflow and BeHance
+                            </p>
+                            <div class="hireMe-Services">
+                                    <a href="https://stackoverflow.com/users/2966617/rusty" target="_blank" class="communitiesCircle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="1.80rem" class="communitiesIco"  viewBox="0 0 27.14 32.115">
+                                            <defs>
+                                                <style>
+                                                .cls-3 {
+                                                    fill: #00c853;
+                                                }
+                                                </style>
+                                            </defs>
+                                            <path id="Icon_awesome-stack-overflow" data-name="Icon awesome-stack-overflow" class="cls-3" d="M20.835,22.25,6.806,19.29l-.588,2.817,14.029,2.939Zm3.656-6.237-11-9.2L11.66,9.024l11,9.2ZM22.255,18.86l-13-6.072L8.061,15.4,21.05,21.462ZM18.778,2.25,16.484,3.97l8.552,11.491,2.294-1.72Zm1.47,23.513H5.91v2.846H20.248ZM23.093,31.5H3.057V22.9H.19v11.47H25.961V22.9H23.093Z" transform="translate(-0.19 -2.25)"/>
+                                        </svg>
+                                    </a>
+                                    <a  href="https://www.behance.net/asadjakhar" target="_blank" class="communitiesCircle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="2.5rem " class="communitiesIco" viewBox="0 0 40.5 25.39">
+                                            <defs>
+                                              <style>
+                                                .cls-3 {
+                                                  fill: #00c853;
+                                                }
+                                              </style>
+                                            </defs>
+                                            <path id="Icon_awesome-behance" data-name="Icon awesome-behance" class="cls-3" d="M16.313,16.678a5.336,5.336,0,0,0,3.4-5.2c0-4.964-3.7-6.173-7.966-6.173H0V30.22H12.08c4.528,0,8.782-2.173,8.782-7.235,0-3.129-1.484-5.442-4.549-6.307ZM5.477,9.555h5.14c1.976,0,3.755.555,3.755,2.848,0,2.116-1.385,2.967-3.34,2.967H5.477V9.555Zm5.857,16.432H5.477V19.125h5.97c2.412,0,3.938,1.005,3.938,3.558,0,2.517-1.821,3.3-4.05,3.3ZM36.541,9.063h-10.1V6.609h10.1V9.063Zm3.959,12.4c0-5.337-3.122-9.788-8.782-9.788-5.5,0-9.232,4.134-9.232,9.548,0,5.618,3.537,9.471,9.232,9.471,4.31,0,7.1-1.941,8.445-6.068H35.789c-.471,1.54-2.412,2.355-3.916,2.355-2.9,0-4.43-1.7-4.43-4.591H40.458C40.479,22.092,40.5,21.776,40.5,21.459ZM27.45,19.266a3.873,3.873,0,0,1,4.113-3.853c2.489,0,3.741,1.462,3.952,3.853Z" transform="translate(0 -5.302)"/>
+                                        </svg>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bc">
+                    </div>
+                </div>
+
+                <div class="page-quotation">
+                    <quote>
+                        "The smartest amongst us, make use of least resources available to make the best possible solution"
+                    </quote>
+                    <span>-An acquaintance</span>
+                </div>
+            </div>
+        </section>
+        <!-- content end-->
 
     </main>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-    <script src="assets/sweet-scroll.min.js"></script>
-    <script src="assets/jquery.waypoints.min.js"></script>
+    <!-- scripts -->
+    <script type="text/javascript" src="./assets/scripts.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            anchors: ['firstPage', 'secondPage', '3rdPage'],
+            sectionsColor: [' #212121', '#FF7043', '#0cc35e'],
+            slidesNavigation: true,
+            verticalCentered: false,
+            navigation: true,
+            controlArrows: false,
+            paddingTop: '0em',
+	        paddingBottom: '0px',
+        
+            afterSlideLoad: function(section, origin, destination, direction) {
+                document.querySelector('.left-arrow').classList.remove('hidden');
+                document.querySelector('.right-arrow').classList.remove('hidden')
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+                if(direction=="none")
+                    return
+                if(destination.anchor == "slide1")
+                    document.querySelector('#section1').style.background = '#FF7043'
+                else if (destination.anchor == "slide2")
+                    document.querySelector('#section1').style.background = '#5349fd'
+                else if (destination.anchor == "slide3")
+                     document.querySelector('#section1').style.background = '#2962FF'
+            },
 
-    <script src="./main.js"></script>
+            onLeave: function(origin, destination, direction) {
+                // console.log(origin, destination, direction)
+                if(destination.anchor == "secondPage"){
+                    document.querySelector('#section1').classList.add('transitColors')
+                }else{
+                    document.querySelector('#section1').classList.remove('transitColors')
+                }
+            },
+            onSlideLeave: function(section, origin, destination, direction){
+                document.querySelector('.left-arrow').classList.add('hidden');
+                document.querySelector('.right-arrow').classList.add('hidden')
 
+            }
+        });
+
+        document.getElementById('right-arrow-link').onclick = function(){
+            fullpage_api.moveSlideRight();
+        }
+        document.getElementById('left-arrow-link').onclick = function(){
+            fullpage_api.moveSlideLeft();
+        }
+    </script>
 </body>
 </html>
